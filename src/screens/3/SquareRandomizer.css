@@ -1,0 +1,36 @@
+.timer-one {
+  padding: 20px 0 0 0;
+  margin-top: 10px;
+}
+
+.gameboard {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 25px auto;
+  box-shadow: 3px 4px 3px #b9b9b9;
+}
+
+.top-row,
+.bottom-row {
+  width: 100%;
+  height: 125px;
+  display: inline-flex;
+
+}
+
+.board-square {
+  height: 125px;
+  width: 125px;
+  border: 1px solid black;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  background: black;
+  color: white;
+}

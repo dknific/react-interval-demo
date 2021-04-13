@@ -1,0 +1,44 @@
+.explain-screen {
+  padding: 40px 0;
+  text-align: left;
+}
+@media(min-width: 600px) {
+  .explain-screen {
+    padding: 80px 0;
+    text-align: left;
+  }
+}
+
+.explain-screen > h1 {
+  margin-bottom: 20px;
+}
+
+.explain-screen > p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.code-box {
+  background: #545454;
+  text-align: left;
+  padding: 10px 15px;
+}
+
+.code-box > code {
+  padding: 0;
+  background: 0;
+  color: #d6f6ff;
+}
+
+.indented-code {
+  padding-left: 30px !important;
+}
+
+code > span {
+  color: #44ff44;
+}
+
+.call-to-action {
+  font-size: 17px;
+  font-weight: bold;
+}

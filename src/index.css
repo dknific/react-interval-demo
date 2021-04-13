@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1, h2, p, button, div {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  width: 100px;
+  height: 70px;
+  margin: 10px 10px;
+  padding: 0 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1, h2, p {
+  margin-bottom: 10px;
+}

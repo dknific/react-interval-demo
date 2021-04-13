@@ -1,0 +1,21 @@
+.typewriter {
+  padding: 10px 0 0 0;
+}
+@media (min-width: 600px) {
+  .typewriter {
+    padding: 40px 0 0 0;
+  }
+}
+
+.canvas {
+  margin: 20px auto;
+  padding: 20px;
+  text-align: left;
+  text-indent: 20px;
+  line-height: 1.6;
+  border: 1px solid #dadada;
+}
+
+.start-typewriter {
+  margin-bottom: 20px;
+}
